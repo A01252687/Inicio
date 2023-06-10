@@ -1,0 +1,34 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(242, 235, 206);
+    margin: 0%;
+}
+
+h3{ 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.heading {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.laboratorios{
+    display:flex;
+    justify-content: space-evenly;
+    max-width: 100vw;
+    flex-wrap: wrap;
+}
+
+.laboratorios img{
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 200px;  
+}
+
+.a:hover {
+    cursor: url("img/sushi_14.png"), auto;
+}
